@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1">
+	<title>Login</title>
+	<!-- the form awesome library is used to add icons to our form -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<!-- include the stylesheet file -->
+	<link href="./login.css" rel="stylesheet" type="text/css">
+	<!--<script type = "text/javascript" src="../scripts/LoginScript.js"></script>   -->
+</head>
+
+<body>
+	<div class="login">
+		<img src="../img/timeline.png" alt="timelineLogo" style=" width: 30%;">
+		<h1>Login</h1>
+		<form class ="form"> 
+			<label for="username">
+
+				<i class="fas fa-user"></i>
+			</label>
+			<input type="text" name="username" placeholder="Username" id="username" required>
+			<label for="password">
+				<i class="fas fa-lock"></i>
+			</label>
+			<input type="password" name="password" placeholder="Password" id="password" required>
+			<input type="submit" value="Login" >
+			<p id="demo"></p>
+		</form> 
+
+	</div>
+</body>
+<script>
+	const formE1 = document.querySelector('.form')
+	formE1.addEventListener('submit',event =>{
+		event.preventDefault()
+		const formData = new FormData(formE1);
+		const data = Object.fromEntries(formData)	
+		let userName = document.getElementById("username").value;
+    	let password = document.getElementById("password").value;
+		fetch('http://127.0.0.1:2233/login/Login',{
+			method: "POST",
+			mode: 'cors',
+			credentials : "same-origin",
+			cache: "no-cache",
+			body: JSON.stringify({
+				userName : userName,
+				password : password,
+
+			}),
+			headers : {
+				'Access-Control-Allow-Origin':'*',
+				'Content-Type': 'application/json; charset=UTF-8',
+			},
+
+  }).then((response) => response.json())
+  .then((data) => {
+    console.log("Success:", data);
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
+	})
+</script>
+
+</html>
