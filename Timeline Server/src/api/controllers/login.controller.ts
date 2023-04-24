@@ -14,18 +14,21 @@ import { userDataLogin } from '../repositories/login.repository';
 const router = express.Router();
 
 // Router for Fetching branch List
-router.post('/Login', async (req: Request, res: Response) => {
-let responseJson : any=''
+router.post('/login', async (req: Request, res: Response) => {
+   
+
     const TransXpedia: TransXpedia = new TransXpediaTemplate(req, res);
     try {
 
         logger.info(TransXpedia, 'FROM CLIENT', TransXpedia.req.body);
         validateSchema<UserData>(userData_schema, TransXpedia.req.body)
-        console.log("TransXpedia.req.body", TransXpedia.req.body);
+        //console.log("TransXpedia.req.body", TransXpedia.req.body.userName);
         let userData:any  = await UserService.userLogin(TransXpedia)
+       // console.log("userData.username",userData.username);
+        
         let responseJson : any=''
         
-        if(userData.length >0){
+        if( userData && userData.username == TransXpedia.req.body.userName){
             responseJson = {
                 errorCode: "00",
                 errorMsg: "success",
@@ -37,6 +40,8 @@ let responseJson : any=''
                 errorMsg: "USER NOT FOUND!",
             } 
         }
+        console.log("responseJson",responseJson);
+        
         sendToClient(res, responseJson, TransXpedia)
         
     }

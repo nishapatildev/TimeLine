@@ -16,11 +16,11 @@ function NavbarFunc() {
         <NavLink to="/services" activeStyle>Services</NavLink>
         <NavLink to="/about" activeStyle>About</NavLink>
         <NavLink to="/contact" activeStyle>Contact</NavLink>
-        <NavLink to="/signup" activeStyle>Sign Up</NavLink>
+       
        
       </NavMenu>
       <NavBtn>
-        <NavBtnLink to ='/signin'>Sign In</NavBtnLink>
+        <NavBtnLink to ='/signin'>Sign Up</NavBtnLink>
        
       </NavBtn>
      </Nav>

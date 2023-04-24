@@ -1,0 +1,878 @@
+[2023-03-05T00:06:49.414] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '31',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"a","password":"a"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:06:49.459] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:07:52.535] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:07:52.591] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:13:06.417] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:13:06.463] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:16:56.973] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:16:57.010] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:20:46.069] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:20:46.117] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:26:03.052] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:26:03.098] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:30:17.778] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:30:17.827] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:36:11.124] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:36:11.211] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:40:35.631] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:40:35.691] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:41:31.829] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:41:31.884] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:42:25.907] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:42:25.970] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:51:01.090] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:51:01.155] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:52:31.540] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:52:31.592] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:53:39.697] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:53:39.753] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:55:54.944] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:55:54.998] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:58:32.593] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T00:58:32.648] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:41:40.025] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:41:42.699] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:41:53.981] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:42:35.337] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:51:27.464] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:51:27.987] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:53:35.779] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:53:35.894] [ERROR] [POST] [/Login]:
+ { CONTEXT: 'TO CLIENT', CLIENT_HEADERS: '', DATA: '{}', UUID: '' } 
+
+[2023-03-05T11:56:57.358] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T11:57:07.424] [ERROR] [POST] [/Login]:
+ { CONTEXT: 'TO CLIENT', CLIENT_HEADERS: '', DATA: '{}', UUID: '' } 
+
+[2023-03-05T13:13:46.557] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:13:56.647] [ERROR] [POST] [/Login]:
+ { CONTEXT: 'TO CLIENT', CLIENT_HEADERS: '', DATA: '{}', UUID: '' } 
+
+[2023-03-05T13:14:31.926] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:14:41.980] [ERROR] [POST] [/Login]:
+ { CONTEXT: 'TO CLIENT', CLIENT_HEADERS: '', DATA: '{}', UUID: '' } 
+
+[2023-03-05T13:15:32.535] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:15:34.050] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:22:15.301] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:22:15.364] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:36:15.377] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:36:15.446] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:40:48.781] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:40:48.859] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"00","errorMsg":"success"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:50:08.893] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'FROM CLIENT',
+  CLIENT_HEADERS: {
+    host: '127.0.0.1:2233',
+    'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0',
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://127.0.0.1:5500/',
+    'access-control-allow-origin': '*',
+    'content-type': 'application/json; charset=UTF-8',
+    'content-length': '37',
+    origin: 'http://127.0.0.1:5500',
+    connection: 'keep-alive',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site'
+  },
+  DATA: '{"userName":"John","password":"John"}',
+  UUID: ''
+} 
+
+[2023-03-05T13:50:08.954] [INFO] [POST] [/Login]:
+ {
+  CONTEXT: 'TO CLIENT',
+  CLIENT_HEADERS: '',
+  DATA: '{"errorCode":"201","errorMsg":"USER NOT FOUND!"}',
+  UUID: ''
+} 
+

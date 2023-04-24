@@ -2,7 +2,7 @@ import { AppConfig } from "../api/lib/interfaces/Common.interfaces";
 
 export const config: AppConfig = {
     host: '127.0.0.1',
-    port: 2233,
+    port: 7777,
     serverCommType: 'http',
     bankConfig: {
         bankName: "CENTRAL BANK OF INDIA",

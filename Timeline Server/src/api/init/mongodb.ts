@@ -1,4 +1,4 @@
-var {config} = require('../../config/config');
+let {config} = require('../../config/config');
 
-export var mongoDB = `mongodb://${config.mongoDbConfig.host}:${config.mongoDbConfig.port}/${config.mongoDbConfig.username}`;
+export let mongoDB = `mongodb://${config.mongoDbConfig.host}:${config.mongoDbConfig.port}/${config.mongoDbConfig.username}`;
 

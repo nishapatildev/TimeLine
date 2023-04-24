@@ -35,7 +35,7 @@ export function userDataLogin(transXpedia: TransXpedia) {
                         return rejected(results);
 
                     }else{
-                        console.log('Users found:', results);
+                        //console.log('Users found:', results);
                         return resolved(results);
 
                        

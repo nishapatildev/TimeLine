@@ -1,6 +1,7 @@
 import {app} from '../app'
 var debug = require('debug')('express-backend:server');
 import http from 'http';
+import config from '../../../config/config';
 //import {appDataSource} from '../mongodb';
 var mongoose = require('mongoose');
 
@@ -9,7 +10,7 @@ var mongoose = require('mongoose');
  */
 
 module.exports = function httpServer(){
-var port = normalizePort(process.env.PORT || '2233');
+var port = normalizePort(process.env.PORT || config.port);
 app.set('port', port);
 
 /**
